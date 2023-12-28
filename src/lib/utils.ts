@@ -7,7 +7,7 @@ export function cn(...inputs: ClassValue[]) {
 
 export const convertFileToUrl = (file: File) => URL.createObjectURL(file);
 
-export function formatDate(dateString: string) {
+export function formatDate(dateString: any) {
   const options: Intl.DateTimeFormatOptions = {
     year: "numeric",
     month: "short",
