@@ -21,7 +21,7 @@ const LeftSidebar = () => {
     <nav className="leftsidebar">
       <div className="flex flex-col gap-11">
         <Link to="/" className="flex gap-3 items-center">
-          <img src="" alt="logo" width={170} height={36} />
+          <img src="/assets/images/devondeck-studio-website-favicon-white.png" alt="logo" width={90} height={20} />
         </Link>
         
         <Link to={`/profile/${user.id}`} className="flex gap-3 items-center">
