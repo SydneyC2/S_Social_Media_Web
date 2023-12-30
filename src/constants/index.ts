@@ -28,11 +28,6 @@ export const sidebarLinks = [
       label: "Home",
     },
     {
-      imgURL: "/assets/icons/wallpaper.svg",
-      route: "/explore",
-      label: "Explore",
-    },
-    {
       imgURL: "/assets/icons/bookmark.svg",
       route: "/saved",
       label: "Saved",
